@@ -1,26 +1,26 @@
 # Program Sederhana di dalam Kernel
 
-Compile Program
+ Compile Program
 
 '''
 $ make
 '''
 
 
-Memasukan Program dalam kernel
+ Memasukan Program dalam kernel
 
 '''
 $ sudo insmod hello.ko
 '''
 
 
-Mengecek Program Apakah sudah masuk kedalam kernel
+ Mengecek Program Apakah sudah masuk kedalam kernel
 '''
 $ lsmod |grep hello
 '''
 
 
-Melihat Output Program
+ Melihat Output Program
 '''
 $ sudo dmesg
 '''
