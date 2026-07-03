@@ -2,28 +2,28 @@
 
  Compile Program
 
-'''
-$ make
-'''
+ '''
+ $ make
+ '''
 
 
  Memasukan Program dalam kernel
 
-'''
-$ sudo insmod hello.ko
-'''
+ '''
+ $ sudo insmod hello.ko
+ '''
 
 
  Mengecek Program Apakah sudah masuk kedalam kernel
-'''
-$ lsmod |grep hello
-'''
+ '''
+ $ lsmod |grep hello
+ '''
 
 
  Melihat Output Program
-'''
-$ sudo dmesg
-'''
+ '''
+ $ sudo dmesg
+ '''
 
 
 Mengeluarkan Program dalam kernel
